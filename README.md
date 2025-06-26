@@ -13,7 +13,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.1-38B2AC.svg)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer%20Motion-10.16.16-black.svg)](https://www.framer.com/motion/)
 
-[Live Demo](https://vllol-portfolio.vercel.app/) | [Contact](http://wa.me/201505824833)
+[Live Website](https://vllol.com/) | [Contact](http://wa.me/201505824833)
 
 </div>
 
