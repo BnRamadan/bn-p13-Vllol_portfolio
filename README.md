@@ -1,7 +1,7 @@
 # 🎬 VllOl Portfolio - Creative Video Editor
 
 <div align="center">
-  <img src="public/vllol-png.gif" alt="VllOl Logo" width="200" height="200" />
+  <img src="[public/vllol-png.gif" alt="VllOl Logo](https://res.cloudinary.com/dg49tgosx/image/upload/v1750484780/vllol-png_oovkfv.gif)" width="200" height="200" />
 
 ### You Dream It, I Frame It
 
