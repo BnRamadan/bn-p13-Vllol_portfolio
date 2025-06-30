@@ -620,6 +620,36 @@ vercel --prod
 netlify deploy --prod
 ```
 
+### VllOl - Creative Video Editor
+
+### Vercel SPA Routing
+
+This project uses a `vercel.json` file to enable proper routing for Single Page Applications (SPA) on Vercel. All routes are redirected to `index.html` so that React Router can handle navigation client-side. This prevents 404 errors for internal pages and ensures Google can index all routes correctly.
+
+```
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
+```
+
+### SEO & Sitemap
+
+- The project includes a comprehensive `robots.txt` that allows all search engines to crawl the site.
+- The sitemap is available at `/sitemap.xml` and is referenced in `robots.txt`.
+- The `index.html` contains all essential meta tags, Open Graph, Twitter Cards, and structured data for SEO.
+
+### Google Analytics & Tag Manager
+
+Google Analytics and Google Tag Manager scripts are already included in `index.html` for traffic and event tracking.
+
+---
+
+For any deployment or SEO issues, check:
+
+- `vercel.json` for correct SPA routing
+- `robots.txt` and `sitemap.xml` for crawlability
+- Meta tags and structured data in `index.html`
+
 ---
 
 ## 🤝 Contributing / المساهمة
